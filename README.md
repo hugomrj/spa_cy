@@ -5,16 +5,18 @@ Este proyecto utiliza **spaCy** para el procesamiento de texto en español.
 ## Instalación
 
 ### Requisitos
-- Python 3.x
+- Python 3.x  
 - pip (gestor de paquetes de Python)
+
+### Clonar el repositorio
+```sh
+git clone https://github.com/hugomrj/spa_cy.git
+cd spa_cy
+```
 
 ### Instalación en Linux y macOS
 ```sh
-# Clonar el repositorio
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_REPOSITORIO>
-
-# Crear y activar entorno virtual
+# Crear y activar el entorno virtual
 python3 -m venv venv
 source venv/bin/activate
 
@@ -22,16 +24,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Descargar el modelo de spaCy en español
-python -m spacy download es_core_news_sm
+python -m spacy download es_core_news_md
 ```
 
 ### Instalación en Windows
 ```sh
-# Clonar el repositorio
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_REPOSITORIO>
-
-# Crear y activar entorno virtual
+# Crear y activar el entorno virtual
 python -m venv venv
 venv\Scripts\activate
 
@@ -40,7 +38,6 @@ pip install -r requirements.txt
 
 # Descargar el modelo de spaCy en español
 python -m spacy download es_core_news_md
-
 ```
 
 ## Verificación de instalación
@@ -55,3 +52,4 @@ Puedes ejecutar el script de detección de palabras clave con:
 ```sh
 python palabras_clave.py "Texto de prueba aquí"
 ```
+
