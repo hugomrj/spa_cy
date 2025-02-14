@@ -1,0 +1,19 @@
+# Ignorar entorno virtual
+venv/
+venv.bak/
+.Venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y caché
+logs/
+*.log
+.cache/
